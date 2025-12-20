@@ -1,0 +1,92 @@
+DAY-3
+Write a program to display the day of the week based on day number (1–7).
+Write a program to check the largest among three numbers.
+Write a program to check whether a number is divisible by 5.
+Write a program to check whether a bank customer can withdraw amount based on balance.
+
+DAY-4
+You are working in a Linux terminal and want to explore files in your working directory.
+Display all files with detailed information (permissions, owner, size).
+Check your current working directory.
+Create a file named notes.txt.
+Display the contents of notes.txt.
+View notes.txt page by page using two different commands.
+Display only the first 5 lines of notes.txt.
+Display only the last 5 lines of notes.txt.
+Identify the type of the file notes.txt.
+View detailed information (size, inode, timestamps) of notes.txt
+ 
+You are setting up folders for a project.
+Create a directory named project.
+Move inside the project directory.
+Create a directory named docs.
+Delete the empty directory docs.
+Create a directory project_files and add some files inside it.
+Delete the directory project_files along with its contents.
+ 
+You are a system administrator managing users.
+Create a new user named user1.
+Set a password for user1.
+Create a group named grp1.
+Add user1 to the group grp1.
+Display the groups to which user1 belongs.
+Display user ID and group ID information of user1.
+Delete the user user1.
+Delete the group grp1.
+ 
+You are given a file report.txt.
+Create the file report.txt.
+View its contents page by page.
+Display only the first few lines.
+Display only the last few lines.
+Search for the word success in the file.
+Count the number of lines containing success.
+Delete the file after verification.
+ 
+
+DAY-5
+
+Create a project folder student_project
+Add a file index.txt with any content
+Initialize Git
+Commit the file
+Push the project to GitHub
+ 
+Create a branch named feature
+Switch to feature
+Modify index.txt
+Commit changes
+Merge feature into main
+Delete feature branch
+ 
+Modify index.txt locally
+Run git pull
+Fix merge conflict
+Commit resolved file
+Push changes
+
+Day-6
+
+ 1. Ask the user to enter attendance percentage.Using if–elif–else:
+≥ 75 → “Eligible for Exam”
+< 75 → “Not Eligible for Exam”
+
+ 
+2. Create a function named calculate_fee that:
+Accepts monthly fee and duration as parameters
+Calculates total fee
+Displays the result
+ 
+3. Use a while loop to allow the user 3 attempts to enter a correct password (linux123).
+If correct → print “Login Successful”
+If wrong after 3 attempts → print “Account Locked”
+
+
+Day-7:
+Write a shell script to check if a number is positive or negative.
+Write a shell script to check whether a given number is divisible by 5.
+Write a shell script to take student marks and print Pass or Fail.
+Write a shell script to check whether a directory exists, else create it.
+
+https://drive.google.com/file/d/1PF-cYtor0aTcwn7tG6sdIDdPZTjNdien/view
+ 

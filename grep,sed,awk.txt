@@ -1,0 +1,67 @@
+Grep commands	 	 	 
+Command	Syntax	Example	Purpose
+Basic search	grep "pattern" file	grep "Linux" data.txt	Search for a word in a file
+Case-insensitive	grep -i "pattern" file	grep -i "linux" data.txt	Ignore case while searching
+Show line number	grep -n "pattern" file	grep -n "Linux" data.txt	Show line numbers of matches
+Count matches	grep -c "pattern" file	grep -c "Linux" data.txt	Count matching lines
+Whole word	grep -w "word" file	grep -w "Java" data.txt	Match exact word
+Invert match	grep -v "pattern" file	grep -v "Linux" data.txt	Show lines NOT matching
+Recursive search	grep -r "pattern" dir	grep -r "error" /logs	Search inside directories
+Multiple patterns	`grep -E "p1	p2" file`	`grep -E "Linux
+Show only match	grep -o "pattern" file	grep -o "Linux" data.txt	Print only matched text
+Search from command output	`command	grep "pattern"`	`ls
+ 	 	 	 
+ 	 	 	 
+Stream editor commands	 	 	 
+Command	Syntax	Example	Purpose
+Replace (first)	sed 's/old/new/' file	sed 's/Linux/Unix/' data.txt	Replace first occurrence
+Replace all	sed 's/old/new/g' file	sed 's/Linux/Unix/g' data.txt	Replace all occurrences
+Replace in line	sed 'Ns/old/new/' file	sed '2s/Linux/Unix/' data.txt	Replace in specific line
+Delete line	sed 'Nd' file	sed '3d' data.txt	Delete specific line
+Delete by pattern	sed '/pattern/d' file	sed '/Linux/d' data.txt	Delete matching lines
+Print lines	sed -n 'Np' file	sed -n '2p' data.txt	Print specific line
+Print range	sed -n 'N,Mp' file	sed -n '1,3p' data.txt	Print line range
+Insert line	sed 'Ni\text' file	sed '2i\Hello' data.txt	Insert before line
+Append line	sed 'Na\text' file	sed '2a\Hello' data.txt	Append after line
+In-place edit	sed -i 's/old/new/g' file	sed -i 's/Linux/Unix/g' data.txt	Modify file directly  
+
+
+
+
+ 
+awk commands	 	 	 
+Command	Syntax	Example	Purpose
+Print all lines	awk '{print}' file	awk '{print}' data.txt	Display entire file
+Print column	awk '{print $N}' file	awk '{print $2}' data.txt	Print specific column
+Print multiple columns	awk '{print $1,$3}' file	awk '{print $1,$3}' data.txt	Print selected columns
+Conditional print	awk 'cond {print}' file	awk '$3>50 {print}' marks.txt	Print with condition
+Line number	awk '{print NR,$0}' file	awk '{print NR,$0}' data.txt	Show line numbers
+Number of fields	awk '{print NF}' file	awk '{print NF}' data.txt	Count columns
+BEGIN block	awk 'BEGIN{cmd} {action}' file	awk 'BEGIN{print "Start"} {print $1}' f	Execute before reading
+END block	awk '{action} END{cmd}' file	awk '{sum+=$3} END{print sum}' f	Execute after reading
+
+
+Operation	Syntax	Example	Purpose
+Translate characters	tr 'set1' 'set2'	tr 'a' 'A'	Replace characters
+Lower → Upper	tr 'a-z' 'A-Z'	tr 'a-z' 'A-Z'	Convert to uppercase
+Upper → Lower	tr 'A-Z' 'a-z'	tr 'A-Z' 'a-z'	Convert to lowercase
+Delete characters	tr -d 'set'	tr -d '0-9'	Remove digits
+Remove spaces	tr -d ' '	tr -d ' '	Delete spaces
+Sort alphabetically	sort file	sort names.txt	Sort lines A → Z
+Reverse sort	sort -r file	sort -r names.txt	Sort Z → A
+Numeric sort	sort -n file	sort -n marks.txt	Sort numbers correctly
+Numeric reverse	sort -nr file	sort -nr marks.txt	Descending numeric sort
+Remove duplicates	uniq file	uniq names.txt	Remove repeated lines
+Count duplicates	uniq -c file	uniq -c names.txt	Count occurrences
+Show duplicates only	uniq -d file	uniq -d names.txt	Print duplicate lines
+Show unique lines only	uniq -u file	uniq -u names.txt	Print non-duplicates
+Ignore case	uniq -i file	uniq -i names.txt	Case-insensitive
+Use with sort	sort file | uniq	sort names.txt | uniq	Proper duplicate removal
+Count sorted data	sort file | uniq -c	sort log.txt | uniq -c	Frequency count
+cut commands	 	 	 
+cut -d" " -f 2 marks.txt	 	 	 
+cut -d" " -f 2,3 marks.txt	 	 	 
+ls -l | cut -d" " -f 3	 	 	 
+ 
+ 
+ 

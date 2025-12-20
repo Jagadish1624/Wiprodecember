@@ -1,0 +1,28 @@
+First time:
+
+git init
+
+git add .
+
+git commit -m "msg"
+
+git remote add origin URL
+
+git push -u origin main
+ 
+Second time:
+
+git add .
+
+git commit -m "msg"
+
+git push
+ 
+First time:
+
+git clone URL
+ 
+Second time:
+
+git pull
+ 

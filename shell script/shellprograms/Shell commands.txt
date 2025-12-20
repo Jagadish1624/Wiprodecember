@@ -1,0 +1,330 @@
+1  uname -a
+    2  exit
+    3  whoami
+    4  pwd
+    5  ls
+    6  mkdir dir1
+    7  cd dir1/
+    8  touch file.txt
+    9  nano file.txt
+   10  cat file.txt
+   11  echo "Orieniavva Buntyy...!" >> file.txt
+   12  cat file.txt
+   13  echo shell
+   14  ip address
+   15  ssh jagadish
+   16  sudo apt update
+   17  sudo apt install openssh-server
+   18  sudo systemctl status ssh
+   19  sudo systemctl start ssh
+   20  ssh user@remote_ip
+   21  ipconfig
+   22  ssh user@192.168.1.5
+   23  ipconfig
+   24  date
+   25  cal
+   26  sudo apt install ncal
+   27  cal
+   28  cal 6 2026
+   29  bc <<<"2+2"
+   30  mkdir dir
+   31  mkdir dir1
+   32  mkdir dir2
+   33  mkdir dir3
+   34  mkdir dir4
+   35  cd dir
+   36  touch file.c
+   37  vim file.c
+   38  cat file.c
+   39  wc file.c
+   40  pwd
+   41  echo $SHELL
+   42  whatiscat
+   43  whatis cat
+   44  whatis gcc
+   45  whereis cat
+   46  clear
+   47  sudo updatedb
+   48  sudo apt upgrade
+   49  sudo apt install bulid-essential
+   50  sudo apt install gcc
+   51  cd "/mnt/d/git by LTTS"
+   52  cd Reddy/
+   53  ls
+   54  cat git_cheat_sheet.pdf
+   55  61;4;6;7;14;21;22;23;24;28;32;42;52c61;4;6;7;14;21;22;23;24;28;32;42;52c61;4;6;7;14;21;22;23;24;28;32;42;52c61;4;6;7;14;21;22;23;24;28;32;42;52c61;4;6;7;14;21;22;23;24;28;32;42;52c61;4;6;7;14;21;22;23;24;28;32;42;52c61;4;6;7;14;21;22;23;24;28;32;42;52c61;4;6;7;14;21;22;23;24;28;32;42;52c61;4;6;7;14;21;22;23;24;28;32;42;52c61;4;6;7;14;21;22;23;24;28;32;42;52c61;4;6;7;14;21;22;23;24;28;32;42;52c
+   56  clelear
+   57  clear
+   58  pwd
+   59  cd ..
+   60  ls -l
+   61  cd myproject
+   62  ls -l
+   63  echo index.html
+   64  cat index.html
+   65  echo " int main(){
+   66  int a =0;
+   67  int b=0;
+   68  }" >> f1.c
+   69  ls
+   70  cat f1.c
+   71  locate f1.c
+   72  sudo apt install plocate
+   73  locate f1.c
+   74  ls
+   75  touch f2.txt
+   76  whatis seruence
+   77  whatis sequence
+   78  whatis seq
+   79  seq 1 1 100
+   80  seq -s ' ' 1 1 100
+   81  seq -s ' ' 5 3 100
+   82  rev <<< linux
+   83  clear
+   84  rev --help
+   85  root
+   86  date --date "84 years ago"
+   87  nano f2.c
+   88  sudo snap install emacs
+   89  emacs
+   90  sudo apt install e3
+   91  ls
+   92  cd test
+   93  cd ..
+   94  ls
+   95  cd myproject/
+   96  ls
+   97  cd ..
+   98  cd Reddy/
+   99  ls
+  100  cd ..
+  101  cd 5013845-Training/
+  102  ls
+  103  cd test
+  104  cd 5013845_Jagadishwar
+  105  cd ..
+  106  cd 5013845_Jagadishwar/
+  107  ls
+  108  cd Hackerrank/
+  109  ls
+  110  cd week-1
+  111  ls
+  112  gcc pangram.c
+  113  gcc pangram.c  -o output
+  114  lc
+  115  ls
+  116  ./a.out
+  117  ls
+  118  ls -l
+  119  cd ..
+  120  ls
+  121  cd Reddy/
+  122  ls
+  123  file frist.c
+  124  stat frist.c
+  125  sudo useradd user1
+  126  cd ..
+  127  sudo useradd user1
+  128  sudo useradd user
+  129  suddo passwd user1
+  130  sudo passwd user1
+  131  sudo groupadd grp1
+  132  sudo usermod -aG grp1 use1
+  133  sudo usermod -aG grp1 user1
+  134  id user1
+  135  sudo userdel -r user
+  136  sudo userdel  user
+  137  sudo userdel  user1
+  138  sudo groupdel grp 1
+  139  sudo groupdel grp1
+  140  mkdir dir
+  141  mkdir all
+  142  cd ~
+  143  mkdir dir
+  144  mkdir all
+  145  pwd
+  146  git init
+  147  git clone https://github.com/Jagadish1624/Wiprotrainingdec.git
+  148  touch file.txt
+  149  git add .
+  150  git commit -m "1st commit"
+  151  git config --global user.name "Jagadishwar Reddy"
+  152  git config --global user.email "jagadish1624@gmail.com"
+  153  git add .
+  154  git config --global --list
+  155  git commit
+  156  git add.
+  157  git add .
+  158  git init
+  159  git clone https://github.com/Jagadish1624/Wiprotrainingdec.git
+  160  touch file.txt
+  161  git status
+  162  git add .
+  163  git commit -m "1st commit"
+  164  git remote add origin https://github.com/Jagadish1624/Wiprotrainingdec.git
+  165  git push -u origin mater
+  166  git push
+  167  wsl --version
+  168  sudo apt install wsl
+  169  wsl --version
+  170  ls
+  171  mkdir shellprograms
+  172  cd shellprograms/
+  173  nano code1.sh
+  174  ls
+  175  ./code1.sh
+  176  bash code1.sh
+  177  ./code1.sh
+  178  nano code1.sh
+  179  bash code1.sh
+  180  ls -l code1.sh
+  181  chmod 754 code1.sh
+  182  ls -l code1.sh
+  183  chmod 754 code1.sh
+  184  ls -l code1.sh
+  185  chmod o-x code1.sh
+  186  ls -l
+  187  nano code1.sh
+  188  bash code1.sh
+  189  nano code2.sh
+  190  bash code1.sh
+  191  bash code2.sh
+  192  nano code2.sh
+  193  bash code2.sh
+  194  nano code2.sh
+  195  bash code2.sh
+  196  nano code2.sh
+  197  ./code2.sh
+  198  bash code2.sh
+  199  nano code2.sh
+  200  ./code2.sh
+  201  ls -l
+  202  nano code2.sh
+  203  ./code2.sh
+  204  nano code2.sh
+  205  ./code2.sh
+  206  export a =10
+  207  export a=10
+  208  echo $a
+  209  echo $HOME
+  210  echo $USER
+  211  nano code2.sh
+  212  ./code2.sh
+  213  nano code2.sh
+  214  ./code2.sh
+  215  nano code2.sh
+  216  ./code2.sh
+  217  nano code2.sh
+  218  ./code2.sh
+  219  nano code2.sh
+  220  ./code2.sh
+  221  nano code2.sh
+  222  ./code2.sh
+  223  nano code2.sh
+  224  ./code2.sh
+  225  nano code2.sh
+  226  ./code2.sh
+  227  nano code2.sh
+  228  ./code2.sh
+  229  nano code2.sh
+  230  ./code2.sh
+  231  nano code2.sh
+  232  ./code2.sh
+  233  nano code2.sh
+  234  ./code2.sh
+  235  nano code2.sh
+  236  ./code2.sh
+  237  nano code2.sh
+  238  ./code2.sh
+  239  nano code3.sh
+  240  ./code2.sh
+  241  ./code3.sh
+  242  nano code4.sh
+  243  ./code4.sh
+  244  nano code4.sh
+  245  ./code4.sh
+  246  nano code4.sh
+  247  ./code4.sh
+  248  nano code4.sh
+  249  ./code4.sh
+  250  nano code4.sh
+  251  ./code4.sh
+  252  nano code4.sh
+  253  ./code4.sh
+  254  nano code4.sh
+  255  ./code4.sh
+  256  nano code4.sh
+  257  ./code4.sh
+  258  nano code4.sh
+  259  ./code4.sh
+  260  nano code4.sh
+  261  ./code4.sh
+  262  ls
+  263  ls -l
+  264  $x
+  265  echo $x
+  266  echo $a
+  267  cat > f1.txt
+  268  ls
+  269  cat f1.txt
+  270  echo "Welcome" >f1.txt
+  271  cat f1.txt
+  272  echo "Welcome to the file" >>f1.txt
+  273  cat f1.txt
+  274  pwd >> f1.txt
+  275  cat f1.txt
+  276  sort < f1.txt
+  277  ls xxx 2> error.txt
+  278  ls
+  279  cat error.txt
+  280  ls | grep "sample.txt"
+  281  ls | sort
+  282  cp f1.txt f2.txt
+  283  ls
+  284  cat f2.txt
+  285  cat f1.txt
+  286  echo $?
+  287  touch attendance
+  288  rm attendance
+  289  ls
+  290  nano attendance.sh
+  291  bash attendance.sh
+  292  nano attendance.sh
+  293  bash attendance.sh
+  294  nano attendance.sh
+  295  bash attendance.sh
+  296  nano attendance.sh
+  297  bash attendance.sh
+  298  nano attendance.sh
+  299  bash attendance.sh
+  300  nano attendance.sh
+  301  bash attendance.sh
+  302  nano attendance.sh
+  303  bash attendance.sh
+  304  nano attendance.sh
+  305  bash attendance.sh
+  306  ls
+  307  cat f1.txt
+  308  cat sample.txt.txt
+  309  cat sample.txt
+  310  rm sample.txt
+  311  ls
+  312  grep -E -i "welcome|to" f1.txt
+  313  grep -E -n -i "welcome|to" f1.txt
+  314  grep -E -n -i -c "welcome|to" f1.txt
+  315  grep -E -n -i  "welcome|to" f1.txt
+  316  sed "s/Welcome/Hello/" f1.txt
+  317  cat f1.txt
+  318  sed "s/Welcome/Hello/g" f1.txt
+  319  cat f1.txt
+  320  sed "2s/Welcome/Hello/g" f1.txt
+  321  sed -n "1,2p" f1.txt
+  322  sed -n "1,6p" attendance.sh
+  323  sed '2i\stream editor i linux' f1.txt
+  324  sed '2a\stream editor linux appendind after line 2' f1.txt
+  325  cat f1.txt
+  326  sed '2a\stream editor linux appendind after line 2' f1.txt
+  327  sed -i '2a\stream editor linux appendind after line 2' f1.txt
+  328  sed -i '2i\stream editor  linux' f1.txt
+  329  cat f1.txt
+  330  history

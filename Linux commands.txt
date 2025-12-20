@@ -1,0 +1,50 @@
+Linux commands :
+
+ 
+Category	Command	Example	Description
+File	ls	ls -l	List files
+File	pwd	pwd	Show current directory
+File	touch	touch file.txt	Create a new file
+File	cat	cat file.txt	View file content
+File	less	less file.txt	Page-wise file view
+File	more	more file.txt	Page-wise file view
+File	head	head file.txt	Display first lines
+File	tail	tail file.txt	Display last lines
+File	cp	cp a.txt b.txt	Copy file
+File	mv	mv a.txt b.txt	Move or rename file
+File	rm	rm file.txt	Delete file
+File	file	file a.txt	Show file type
+File	stat	stat file.txt	Show file details
+Directory	mkdir	mkdir dir1	Create directory
+Directory	rmdir	rmdir dir1	Delete empty directory
+Directory	rm -r	rm -r dir1	Delete directory with files
+Directory	cd	cd /home	Change directory
+Permissions	ls -l	ls -l	View file permissions
+Permissions	chmod	chmod 755 file	Change file permission
+Permissions	chown	chown user file	Change file owner
+Permissions	chgrp	chgrp group file	Change file group
+User	useradd	useradd user1	Create new user
+User	passwd	passwd user1	Set user password
+User	userdel	userdel user1	Delete user
+User	groupadd	groupadd grp1	Create group
+User	groupdel	groupdel grp1	Delete group
+User	usermod	usermod -aG grp1 user1	Add user to group
+User	groups	groups user1	Show user groups
+User	id	id user1	Show user information
+grep commands	grep	grep "hello" file.txt	Searches the word hello in file
+grep commands	grep -i	grep -i "hello" file.txt	Case-insensitive search
+grep commands	grep -n	grep -n "hello" file.txt	Shows line numbers
+grep commands	grep -v	grep -v "hello" file.txt	Shows lines NOT matching
+grep commands	grep -c	grep -c "hello" file.txt	Counts matching lines
+grep commands	grep -w	grep -w "cat" file.txt	Matches whole word only
+
+ 
+Remote Access	ssh	ssh user@192.168.1.10	Secure login to remote system
+Remote Access	ssh -p	ssh -p 2222 user@192.168.1.10	SSH using custom port
+Remote Access	exit	exit	Logout from remote session
+Remote Copy	scp	scp file.txt user@ip:/home/user/	Copy file to remote system
+Remote Copy	scp	scp user@ip:/home/user/file.txt .	Copy file from remote system
+Remote Copy	sftp	sftp user@ip	Secure interactive file transfer
+Remote Copy	put	put file.txt	Upload file in SFTP
+Remote Copy	get	get file.txt	Download file in SFTP
+Remote Access	telnet	telnet 192.168.1.10	Login to remote system (insecure)
