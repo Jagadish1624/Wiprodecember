@@ -1,2 +1,4 @@
 "This is my github" 
-"Edited in githud try to pill this now"
+"Edited in githud try to pull this now"
+Hi everyone
+
